@@ -1,7 +1,7 @@
 N = input() # defines a NxN matrix
 num = 0 # initialize num to 0
-digOne = [] # create empty array for the first diagonal
-digTwo = [] # create empty array for the second diagonal
+digOne = [] # create an empty array for the first diagonal
+digTwo = [] # create an empty array for the second diagonal
 
 for i in range(N):
 	row = map(int, raw_input().split()) # ith row of matrix stored
