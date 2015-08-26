@@ -8,7 +8,7 @@ if K > 26: # case where the key value is larger than 26
 finalStr = '' # initialize finalStr, to be appended later
 
 for symbol in S: # begin iterating through each symbol in the string
-    translation = '' # a place to store the symbol after a letter has ben translated
+    translation = '' # a place to store the symbol after a letter has been translated
 
     if symbol.isalpha(): # case where symbol is a letter in the alphabet
         num = ord(symbol) # gives the ordinal number for symbol
